@@ -1,0 +1,43 @@
+/* Layout helpers & accessibility utilities */
+
+/* ── Layout ── */
+
+.wide {
+  width: calc(100% - 50px);
+  margin-inline: auto;
+}
+
+/* ── Accessibility ── */
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 8px;
+  background: #0f0f12;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 99px;
+  z-index: 300;
+}
+
+.skip-link:focus {
+  left: 16px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+figure.quote,
+.quote blockquote {
+  margin: 0;
+}
+
+.fade {
+  animation: up .5s both;
+}

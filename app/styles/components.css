@@ -1,0 +1,96 @@
+/* Shared UI components: pill, button */
+
+/* ── Pill ── */
+
+.pill {
+  display: inline-block;
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 99px;
+  background: var(--lav);
+  color: #2b2550;
+  font-weight: 500;
+}
+
+.pill.out {
+  background: var(--card);
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.pill.pk {
+  background: #f6c9f3;
+  color: #5b1b57;
+}
+
+.pill.gr {
+  background: #d9f1d3;
+  color: #1d5a14;
+}
+
+/* ── Button ── */
+
+.btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 18px;
+  background: #0f0f12;
+  color: #fff;
+  border-radius: 99px;
+  padding: 7px 7px 7px 28px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: transform .25s,box-shadow .25s;
+}
+
+.btn i {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--pink);
+  display: grid;
+  place-items: center;
+  transition: transform .3s;
+}
+
+.btn i svg {
+  width: 16px;
+  height: 16px;
+  stroke: #fff;
+  fill: none;
+  stroke-width: 2.2;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(15,15,18,.25);
+}
+
+.btn:hover i {
+  transform: translateX(3px) rotate(-45deg);
+}
+
+.btn.sm {
+  padding: 13px 26px;
+  font-size: 14px;
+}
+
+.btn.lt {
+  background: #fff;
+  color: #0f0f12;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg,transparent 30%,rgba(255,255,255,.3) 50%,transparent 70%);
+  transform: translateX(-120%);
+  transition: transform .7s;
+}
+
+.btn:hover:before {
+  transform: translateX(120%);
+}

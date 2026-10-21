@@ -1,0 +1,91 @@
+/* About / mission section & video play button */
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding: 124px 0 140px;
+}
+
+.about h2 {
+  margin: 18px 0 26px;
+}
+
+.about p.mut {
+  font-size: 16px;
+  max-width: 520px;
+  margin-bottom: 32px;
+}
+
+.media {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.media img,
+.proj img,
+.ini img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scale: 1.18;
+  transition: transform .8s;
+}
+
+.media:hover img {
+  transform: scale(1.06);
+}
+
+.play {
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(20,20,20,.65);
+  backdrop-filter: blur(6px);
+  display: grid;
+  place-items: center;
+  transition: transform .3s;
+}
+
+.play:hover {
+  transform: scale(1.15);
+}
+
+.play:before {
+  content: "";
+  border-left: 14px solid #fff;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  margin-left: 4px;
+}
+
+.play:after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid rgba(255,255,255,.6);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  to {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+/* ── Heading size override ── */
+
+.about h2,
+.testi h2 {
+  font-size: clamp(32px,3.9vw,56px);
+  line-height: 1.2;
+}

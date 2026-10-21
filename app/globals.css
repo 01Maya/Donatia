@@ -1,0 +1,32 @@
+/*
+ * Donatia global styles.
+ * Each partial lives in ./styles and is imported in cascade order — do not reorder.
+ * Section markup lives in components/sections/*.
+ */
+
+/* Foundation */
+@import './styles/base.css';
+@import './styles/components.css';
+
+/* Layout */
+@import './styles/header.css';
+@import './styles/hero.css';
+
+/* Page sections */
+@import './styles/sections/stats.css';
+@import './styles/sections/about.css';
+@import './styles/sections/impact.css';
+@import './styles/sections/programs.css';
+@import './styles/sections/testimonials.css';
+@import './styles/sections/projects.css';
+@import './styles/sections/cta.css';
+@import './styles/footer.css';
+
+/* Overlays, motion & helpers */
+@import './styles/modals.css';
+@import './styles/effects.css';
+@import './styles/utilities.css';
+
+/* Responsive + accessibility overrides (keep last) */
+@import './styles/responsive.css';
+@import './styles/reduced-motion.css';

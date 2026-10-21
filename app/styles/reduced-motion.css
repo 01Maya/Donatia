@@ -1,0 +1,38 @@
+/* Reduced-motion preferences (must load last) */
+
+@media (prefers-reduced-motion:reduce) {
+  .hero .hw img {
+    animation: none;
+    clip-path: none;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  *,
+  *:before,
+  *:after {
+    animation: none!important;
+    transition: none!important;
+  }
+  .rv {
+    opacity: 1;
+    transform: none;
+  }
+  .rv2 {
+    opacity: 1;
+  }
+  .cur,
+  .rv .stats,
+  .rv .impact,
+  .rv .testi,
+  .rv .cta {
+    clip-path: none!important;
+  }
+  #curtain {
+    display: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

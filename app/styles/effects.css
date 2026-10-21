@@ -1,0 +1,146 @@
+/* Scroll reveal, page curtain, progress bar & tilt */
+
+/* ── Scroll reveal ── */
+
+.rv {
+  opacity: 0;
+  transform: translateY(34px);
+  transition: opacity .9s var(--d,0s),transform .9s cubic-bezier(.2,.7,.2,1) var(--d,0s);
+}
+
+.rv.l {
+  transform: translateX(-70px);
+}
+
+.rv.r {
+  transform: translateX(70px);
+}
+
+.rv.z {
+  transform: scale(.9);
+}
+
+.rv.in {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(46px) scale(.96);
+  }
+}
+
+.rv2 {
+  opacity: 0;
+}
+
+.rv2.in {
+  opacity: 1;
+  animation: rise .9s var(--d,0s) cubic-bezier(.2,.7,.2,1) backwards;
+}
+
+.cur {
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 1.2s cubic-bezier(.77,0,.18,1) var(--d,0s);
+}
+
+.cur.in {
+  clip-path: inset(0);
+}
+
+.rv .stats,
+.rv .impact,
+.rv .testi,
+.rv .cta {
+  clip-path: inset(0 50% 0 50% round 26px);
+  transition: clip-path 1.3s cubic-bezier(.77,0,.18,1) .15s;
+}
+
+.rv.in .stats,
+.rv.in .impact,
+.rv.in .testi,
+.rv.in .cta {
+  clip-path: inset(0 round 26px);
+}
+
+/* ── Page curtain & progress bar ── */
+
+#curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  pointer-events: none;
+}
+
+#curtain .cp {
+  flex: 1;
+  background: var(--lav);
+  transition: transform 1.1s cubic-bezier(.77,0,.18,1) .5s;
+}
+
+#curtain .cp.r {
+  background: #f6c9f3;
+}
+
+#curtain.go .cp.l {
+  transform: translateX(-101%);
+}
+
+#curtain.go .cp.r {
+  transform: translateX(101%);
+}
+
+#curtain .cl {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-size: clamp(44px,10vw,110px);
+  font-weight: 500;
+  letter-spacing: -.05em;
+  transition: opacity .5s .15s,transform .8s .15s;
+}
+
+#curtain .cl span {
+  animation: up .8s .1s both;
+}
+
+#curtain.go .cl {
+  opacity: 0;
+  transform: scale(1.15);
+}
+
+#curtain svg {
+  width: .6em;
+  height: .6em;
+}
+
+#pg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 3px;
+  width: 100%;
+  background: var(--pink);
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  z-index: 60;
+}
+
+/* ── Tilt hover ── */
+
+.proj .im.tilt,
+.ini.tilt,
+.media.tilt,
+.fc.tilt {
+  transition: transform .35s ease-out;
+}
+
+.cur.tilt {
+  transition: clip-path 1.2s cubic-bezier(.77,0,.18,1) var(--d,0s),transform .35s ease-out;
+}

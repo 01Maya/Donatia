@@ -1,0 +1,110 @@
+/* Call-to-action (contact) banner */
+
+.cta {
+  position: relative;
+  background: var(--blue);
+  border-radius: 26px;
+  text-align: center;
+  color: #fff;
+  padding: 60px 20px 0;
+  overflow: hidden;
+  min-height: clamp(430px, 45vw, 650px);
+}
+
+.cta h2 {
+  margin: 22px 0 16px;
+  color: #fff;
+  font-size: clamp(38px, 5vw, 72px);
+}
+
+.cta p {
+  font-size: 16px;
+  opacity: 0.9;
+  margin-bottom: 30px;
+}
+
+/* Background image */
+.cta img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 82%;
+  object-fit: cover;
+  object-position: center 65%;
+
+  /* Smooth gradient transition from blue to image */
+  -webkit-mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      #000 22%);
+  mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      #000 22%);
+}
+
+/* Keep text and buttons above the image */
+.cta>*:not(img) {
+  position: relative;
+  z-index: 2;
+}
+
+/* Decorative floating icons */
+.cta .sq {
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.cta .sq svg {
+  stroke: #fff;
+  fill: none;
+  stroke-width: 2;
+}
+
+/* Floating arrow */
+.s1 {
+  left: 7%;
+  top: 28%;
+  width: 150px;
+  animation: float 5s infinite;
+}
+
+/* Floating heart */
+.s2 {
+  right: 8%;
+  top: 20%;
+  width: 130px;
+  animation: float 6s infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .cta {
+    padding: 45px 16px 0;
+    min-height: 430px;
+    border-radius: 20px;
+  }
+
+  .cta h2 {
+    font-size: clamp(32px, 8vw, 44px);
+  }
+
+  .cta img {
+    height: 75%;
+    object-position: center 65%;
+  }
+
+  .s1 {
+    left: 3%;
+    top: 30%;
+    width: 75px;
+  }
+
+  .s2 {
+    right: 3%;
+    top: 23%;
+    width: 70px;
+  }
+}

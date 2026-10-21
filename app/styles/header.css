@@ -1,0 +1,170 @@
+/* Header, navigation & mobile menu */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb,var(--bg) 85%,transparent);
+  backdrop-filter: blur(12px);
+  padding-top: env(safe-area-inset-top,0px);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: -.02em;
+}
+
+.logo svg {
+  width: 26px;
+  height: 26px;
+}
+
+.links {
+  display: flex;
+  gap: 28px;
+  font-size: 14px;
+  align-items: center;
+}
+
+.links a,
+.links button {
+  position: relative;
+  padding: 4px 0;
+  font-size: 14px;
+}
+
+.links a:after,
+.links button.dd:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1.5px;
+  width: 0;
+  background: var(--ink);
+  transition: width .3s;
+}
+
+.links a:hover:after {
+  width: 100%;
+}
+
+.more {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 130%;
+  right: -20px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 8px;
+  min-width: 170px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-6px);
+  transition: .25s;
+  box-shadow: 0 20px 40px rgba(0,0,0,.12);
+}
+
+.more.open .menu,
+.more:hover .menu {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+
+.menu a {
+  display: block;
+  padding: 9px 12px;
+  border-radius: 9px;
+}
+
+.menu a:hover {
+  background: var(--lav);
+}
+
+.menu a:after {
+  display: none;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.tg {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  display: grid;
+  place-items: center;
+}
+
+.tg:hover {
+  background: var(--lav);
+}
+
+.burger {
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--lav);
+  position: relative;
+}
+
+.burger span,
+.burger span:before {
+  position: absolute;
+  left: 12px;
+  width: 16px;
+  height: 2px;
+  background: var(--ink);
+  transition: .3s;
+}
+
+.burger span {
+  top: 19px;
+}
+
+.burger span:before {
+  content: "";
+  left: 0;
+  top: -5px;
+}
+
+.burger.on span {
+  background: transparent;
+}
+
+.burger.on span:before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.burger.on span:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 16px;
+  height: 2px;
+  background: var(--ink);
+  transform: rotate(-45deg);
+}

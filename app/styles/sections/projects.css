@@ -1,0 +1,58 @@
+/* Projects grid */
+
+.projs {
+  padding: 110px 0;
+}
+
+.pg {
+  display: grid;
+  grid-template-columns: 2.1fr 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.proj h3 {
+  font-size: 20px;
+  letter-spacing: -.02em;
+  margin: 18px 0 8px;
+}
+
+.proj p {
+  font-size: 14px;
+  color: var(--mut);
+  margin-bottom: 14px;
+  max-width: 440px;
+}
+
+.proj .im {
+  border-radius: 14px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+  /* close to the photos' own shape, so very little is cropped */
+}
+
+.proj.big .im {
+  aspect-ratio: 3/2;
+  /* same shape as the jaguar photo: no crop */
+}
+
+.proj:hover img {
+  transform: scale(1.07);
+}
+
+.ul {
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1.5px solid var(--ink);
+  padding-bottom: 1px;
+  transition: .25s;
+}
+
+.ul:hover {
+  color: var(--pink);
+  border-color: var(--pink);
+}
+
+.proj .im {
+  position: relative;
+}

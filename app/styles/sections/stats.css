@@ -1,0 +1,39 @@
+/* Stats band */
+
+.stats {
+  background: var(--lav);
+  border-radius: 26px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  padding: 64px max(20px, calc((100% - 1180px)/2));
+  margin: -6px 0 0;
+}
+
+.stats b {
+  font-size: clamp(58px, 6.5vw, 96px);
+  font-weight: 600;
+  letter-spacing: -.055em;
+  line-height: .95;
+  display: block;
+  color: #000;
+}
+
+
+/* "+" sign: vertically centred on the digits */
+.stats b sup {
+  color: var(--pink);
+  font-size: .55em;
+  margin-left: 4px;
+  vertical-align: middle;
+  position: relative;
+  top: -.16em;
+}
+
+/* Label under each number (direct child only, so the animated digits are not affected) */
+.stats div>span {
+  display: block;
+  font-size: 15px;
+  color: var(--mut);
+  margin-top: 10px;
+}

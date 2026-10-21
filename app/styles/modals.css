@@ -1,0 +1,167 @@
+/* Modals, donate form & toast */
+
+.mo {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(10,8,25,.6);
+  backdrop-filter: blur(6px);
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+.mo.on {
+  opacity: 1;
+  visibility: visible;
+}
+
+.box {
+  background: var(--card);
+  border-radius: 24px;
+  padding: 30px;
+  width: min(440px,100%);
+  position: relative;
+  transform: scale(.94) translateY(14px);
+  transition: .35s;
+  max-height: 92vh;
+  overflow: auto;
+}
+
+.mo.on .box {
+  transform: none;
+}
+
+.box.vid {
+  width: min(820px,100%);
+  padding: 0;
+  overflow: hidden;
+}
+
+.x {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--lav);
+  z-index: 3;
+}
+
+.x:hover {
+  transform: rotate(90deg);
+}
+
+.box h3 {
+  font-size: 26px;
+  margin-bottom: 6px;
+}
+
+.seg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--lav);
+  border-radius: 99px;
+  padding: 4px;
+  margin: 18px 0;
+}
+
+.seg button {
+  padding: 9px;
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: .25s;
+}
+
+.seg button.on {
+  background: #0f0f12;
+  color: #fff;
+}
+
+.amts {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.amts button {
+  border: 1.5px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  font-weight: 500;
+  transition: .2s;
+}
+
+.amts button:hover {
+  border-color: var(--pink);
+  transform: translateY(-2px);
+}
+
+.amts button.on {
+  border-color: var(--ink);
+  background: var(--lav);
+}
+
+.box input.c {
+  width: 100%;
+  border: 1.5px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 12px;
+  padding: 12px 14px;
+  font: inherit;
+  margin-bottom: 16px;
+}
+
+.box .btn {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ok {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.ok .ck {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--pink);
+  margin: 0 auto 14px;
+  display: grid;
+  place-items: center;
+  animation: pop .5s;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0);
+  }
+}
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: calc(24px + env(safe-area-inset-bottom,0px));
+  transform: translate(-50%,30px);
+  background: #0f0f12;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 99px;
+  font-size: 13px;
+  opacity: 0;
+  transition: .4s;
+  z-index: 120;
+}
+
+.toast.on {
+  opacity: 1;
+  transform: translate(-50%,0);
+}
