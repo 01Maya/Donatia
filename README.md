@@ -6,3 +6,6 @@
 
 Donatia is a charity landing page concept focused on **community, compassion, and meaningful change**.  
 It combines a clean visual layout, warm imagery, and clear calls to action to present the organization's mission.
+
+## 📝 Description
+
