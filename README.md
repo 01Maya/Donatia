@@ -9,3 +9,4 @@ It combines a clean visual layout, warm imagery, and clear calls to action to pr
 
 ## 📝 Description
 
+The website introduces Donatia through a friendly, image-led experience with a soft pastel palette and rounded UI elements.  
