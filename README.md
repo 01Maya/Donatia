@@ -18,4 +18,4 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 📱 Responsive layouts for desktop, tablet, and mobile
 - 🧭 Section-based navigation
 - ✨ Scroll-reveal and entrance animations
-
+- 🎞️ Curtain-style page-scroll animation
