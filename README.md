@@ -15,3 +15,5 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 
 ## 🚀 Features
 
+- 📱 Responsive layouts for desktop, tablet, and mobile
+
