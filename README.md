@@ -19,3 +19,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🧭 Section-based navigation
 - ✨ Scroll-reveal and entrance animations
 - 🎞️ Curtain-style page-scroll animation
+
+
+---
