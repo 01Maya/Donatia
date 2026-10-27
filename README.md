@@ -22,6 +22,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🔢 Animated impact counters
 - 🖱️ Interactive hover states and micro-interactions
 - 🌱 Mission and organization overview
-
+- 📊 Impact statistics to highlight progress
 
 ---
