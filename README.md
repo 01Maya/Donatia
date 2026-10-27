@@ -26,5 +26,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🤝 Principles and approach section
 - 🐾 Image-led initiative cards
 - 💬 Testimonials to support trust and credibility
+- 🗂️ Recent projects and impact stories
   
 ---
