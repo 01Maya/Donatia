@@ -29,5 +29,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🗂️ Recent projects and impact stories
 - 🎯 Clear donation and engagement calls to action
 - 📐 Consistent spacing, typography, and visual hierarchy
+- 🎨 Soft pastel colors and rounded components
   
 ---
