@@ -28,6 +28,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 💬 Testimonials to support trust and credibility
 - 🗂️ Recent projects and impact stories
 - 🎯 Clear donation and engagement calls to action
-
+- 📐 Consistent spacing, typography, and visual hierarchy
   
 ---
