@@ -21,6 +21,7 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🎞️ Curtain-style page-scroll animation
 - 🔢 Animated impact counters
 - 🖱️ Interactive hover states and micro-interactions
+- 🌱 Mission and organization overview
 
 
 ---
