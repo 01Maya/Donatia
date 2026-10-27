@@ -24,5 +24,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🌱 Mission and organization overview
 - 📊 Impact statistics to highlight progress
 - 🤝 Principles and approach section
+- 🐾 Image-led initiative cards
   
 ---
