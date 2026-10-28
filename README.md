@@ -44,3 +44,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 
 Introduces Donatia with the headline “Together, we build a brighter future,” a prominent visual, and a clear call to action.  
 Creates an immediate emotional connection and communicates the purpose of the page.
+
+### 📊 Impact Statistics
+
