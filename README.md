@@ -13,6 +13,8 @@ The website introduces Donatia through a friendly, image-led experience with a s
 Visitors can explore the organization's mission, impact statistics, guiding principles, initiatives, testimonials, and recent projects through a structured page flow.  
 Smooth scrolling, entrance animations, hover interactions, animated counters, and a curtain-style scroll effect add motion while keeping the experience approachable and easy to follow.
 
+---
+
 ## 🚀 Features
 
 - 📱 Responsive layouts for desktop, tablet, and mobile
