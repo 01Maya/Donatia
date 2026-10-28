@@ -47,3 +47,5 @@ Creates an immediate emotional connection and communicates the purpose of the pa
 
 ### 📊 Impact Statistics
 
+Highlights key impact figures, including people reached, initiatives, and broader community impact.  
+Animated counters draw attention to the numbers as visitors explore the page.
