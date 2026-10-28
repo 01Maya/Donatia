@@ -71,3 +71,5 @@ Shares supporter or community perspectives in a dedicated section.
 Adds a human element to the story and reinforces the importance of the work.
 
 ### 🗂️ Latest Projects
+
+Features recent projects, including wildlife conservation, green village efforts, and school meal programs.  
