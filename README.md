@@ -56,3 +56,5 @@ Introduces the organization and its mission through concise copy and an image-le
 Helps visitors understand the cause and the need for collective action.
 
 ### 💡 How We Deliver Change
+
+Presents the core principles guiding Donatia's work.  
