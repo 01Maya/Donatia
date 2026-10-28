@@ -73,3 +73,4 @@ Adds a human element to the story and reinforces the importance of the work.
 ### 🗂️ Latest Projects
 
 Features recent projects, including wildlife conservation, green village efforts, and school meal programs.  
+Gives visitors concrete examples of how community-focused initiatives can create change.
