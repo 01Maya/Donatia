@@ -67,3 +67,5 @@ Uses visual cards to help visitors explore different areas of impact.
 
 ### 💬 Testimonials
 
+Shares supporter or community perspectives in a dedicated section.  
+Adds a human element to the story and reinforces the importance of the work.
