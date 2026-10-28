@@ -54,3 +54,5 @@ Animated counters draw attention to the numbers as visitors explore the page.
 
 Introduces the organization and its mission through concise copy and an image-led layout.  
 Helps visitors understand the cause and the need for collective action.
+
+### 💡 How We Deliver Change
