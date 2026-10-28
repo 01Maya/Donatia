@@ -30,5 +30,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - 🎯 Clear donation and engagement calls to action
 - 📐 Consistent spacing, typography, and visual hierarchy
 - 🎨 Soft pastel colors and rounded components
-  
+- ♿ Thoughtful, accessible interaction patterns
+
 ---
