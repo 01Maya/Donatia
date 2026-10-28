@@ -39,3 +39,6 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 ---
 
 ## 🧩 Sections
+
+### 🏠 Hero
+
