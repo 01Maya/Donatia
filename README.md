@@ -61,3 +61,6 @@ Presents the core principles guiding Donatia's work.
 Makes the organization's approach easy to scan and understand.
 
 ### 🤝 Impact Initiatives
+
+Showcases initiatives such as animal rescue, environmental action, and school support.  
+Uses visual cards to help visitors explore different areas of impact.
