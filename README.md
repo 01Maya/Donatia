@@ -37,3 +37,5 @@ Smooth scrolling, entrance animations, hover interactions, animated counters, an
 - ♿ Thoughtful, accessible interaction patterns
 
 ---
+
+## 🧩 Sections
