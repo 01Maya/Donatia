@@ -82,4 +82,7 @@ Provides a clear next step for people who want to get involved.
 
 ### 💜 Footer
 
+Provides useful navigation links and a community signup area.  
+
+
 ---
