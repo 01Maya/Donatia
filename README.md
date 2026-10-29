@@ -80,4 +80,6 @@ Gives visitors concrete examples of how community-focused initiatives can create
 Encourages visitors to contribute and support the mission with the message “Your gift changes lives.”  
 Provides a clear next step for people who want to get involved.
 
+### 💜 Footer
+
 ---
