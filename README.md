@@ -77,6 +77,7 @@ Gives visitors concrete examples of how community-focused initiatives can create
 
 ### 🎯 Call to Action
 
+Encourages visitors to contribute and support the mission with the message “Your gift changes lives.”  
 
 
 ---
