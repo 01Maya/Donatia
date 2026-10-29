@@ -83,6 +83,6 @@ Provides a clear next step for people who want to get involved.
 ### 💜 Footer
 
 Provides useful navigation links and a community signup area.  
-
+Closes the page with a structured layout and a way to stay connected.
 
 ---
