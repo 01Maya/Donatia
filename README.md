@@ -110,3 +110,6 @@ cd YOUR_PROJECT_FOLDER
 
 ### 2. Install dependencies
 
+```bash
+npm install
+```
