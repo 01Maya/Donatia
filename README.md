@@ -103,3 +103,7 @@ https://donatia01.vercel.app/
 
 Replace the URL below with the actual GitHub repository URL.
 
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd YOUR_PROJECT_FOLDER
+```
