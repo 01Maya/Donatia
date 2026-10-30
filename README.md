@@ -107,3 +107,6 @@ Replace the URL below with the actual GitHub repository URL.
 git clone YOUR_GITHUB_REPOSITORY_URL
 cd YOUR_PROJECT_FOLDER
 ```
+
+### 2. Install dependencies
+
