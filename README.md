@@ -100,3 +100,6 @@ https://donatia01.vercel.app/
 ## ⚙️ Installation
 
 ### 1. Clone the repository
+
+Replace the URL below with the actual GitHub repository URL.
+
