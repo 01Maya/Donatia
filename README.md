@@ -98,3 +98,5 @@ https://donatia01.vercel.app/
 ---
 
 ## ⚙️ Installation
+
+### 1. Clone the repository
