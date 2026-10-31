@@ -137,3 +137,5 @@ Build the project using the script configured in `package.json`:
 ```bash
 npm run build
 ```
+
+For a Next.js project, the production server is commonly started with:
