@@ -122,3 +122,6 @@ npm run dev
 
 ### 4. Open in your browser
 
+For a typical local setup, visit:
+
+
