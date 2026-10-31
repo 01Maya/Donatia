@@ -133,3 +133,7 @@ Check the project's scripts and terminal output if it uses a different port or d
 ## 🏗️ Production Build
 
 Build the project using the script configured in `package.json`:
+
+```bash
+npm run build
+```
