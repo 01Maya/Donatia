@@ -124,4 +124,6 @@ npm run dev
 
 For a typical local setup, visit:
 
-
+```text
+http://localhost:3000
+```
