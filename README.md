@@ -131,3 +131,5 @@ http://localhost:3000
 Check the project's scripts and terminal output if it uses a different port or development command.
 
 ## 🏗️ Production Build
+
+Build the project using the script configured in `package.json`:
