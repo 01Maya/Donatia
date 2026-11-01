@@ -142,4 +142,6 @@ npm run build
 
 For a Next.js project, the production server is commonly started with:
 
----
+```bash
+npm run start
+```
