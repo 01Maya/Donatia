@@ -160,6 +160,7 @@ To deploy your own version:
 2. Import the repository into Vercel.
 3. Confirm the framework and build settings match the project.
 4. Configure any required environment variables.
-   
+5. Deploy and verify the live site on desktop and mobile.
+  
 ---
 
