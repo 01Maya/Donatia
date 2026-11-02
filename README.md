@@ -157,6 +157,7 @@ The live project is hosted on **Vercel**.
 To deploy your own version:
 
 1. Push the project to a GitHub repository.
-
+2. Import the repository into Vercel.
+   
 ---
 
