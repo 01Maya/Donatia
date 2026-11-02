@@ -158,6 +158,7 @@ To deploy your own version:
 
 1. Push the project to a GitHub repository.
 2. Import the repository into Vercel.
-   
+3. Confirm the framework and build settings match the project.
+     
 ---
 
