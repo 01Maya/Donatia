@@ -167,6 +167,7 @@ To deploy your own version:
 ## 🎨 Design Highlights
 
 ✦ Minimal, welcoming nonprofit aesthetic
+
 ✦ Soft pastel palette with rounded UI elements
 ✦ Image-led storytelling
 ✦ Clear typographic hierarchy
