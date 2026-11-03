@@ -169,3 +169,4 @@ To deploy your own version:
 ✦ Minimal, welcoming nonprofit aesthetic
 ✦ Soft pastel palette with rounded UI elements
 ✦ Image-led storytelling
+✦ Clear typographic hierarchy
