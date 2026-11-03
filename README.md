@@ -164,3 +164,4 @@ To deploy your own version:
   
 ---
 
+## 🎨 Design Highlights
