@@ -171,4 +171,5 @@ To deploy your own version:
 ✦ Soft pastel palette with rounded UI elements
 
 ✦ Image-led storytelling
+
 ✦ Clear typographic hierarchy
