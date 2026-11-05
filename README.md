@@ -178,6 +178,8 @@ To deploy your own version:
 
 ✦ Subtle scroll and entrance animations
 
- ✦ Animated counters and hover interactions
+✦ Animated counters and hover interactions
  
 ✦ Curtain-style scroll transition
+
+✦ Mission-focused content and clear calls to action
