@@ -179,3 +179,5 @@ To deploy your own version:
 ✦ Subtle scroll and entrance animations
 
  ✦ Animated counters and hover interactions
+ 
+✦ Curtain-style scroll transition
