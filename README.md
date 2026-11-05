@@ -173,3 +173,5 @@ To deploy your own version:
 ✦ Image-led storytelling
 
 ✦ Clear typographic hierarchy
+
+✦ Consistent spacing and responsive layouts
