@@ -175,3 +175,5 @@ To deploy your own version:
 ✦ Clear typographic hierarchy
 
 ✦ Consistent spacing and responsive layouts
+
+✦ Subtle scroll and entrance animations
