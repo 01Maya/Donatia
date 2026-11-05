@@ -177,3 +177,5 @@ To deploy your own version:
 ✦ Consistent spacing and responsive layouts
 
 ✦ Subtle scroll and entrance animations
+
+ ✦ Animated counters and hover interactions
