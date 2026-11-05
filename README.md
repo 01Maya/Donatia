@@ -183,3 +183,5 @@ To deploy your own version:
 ✦ Curtain-style scroll transition
 
 ✦ Mission-focused content and clear calls to action
+
+## 📌 Project Status
