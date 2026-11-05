@@ -184,4 +184,4 @@ To deploy your own version:
 
 ✦ Mission-focused content and clear calls to action
 
-## 📌 Project Status
+---
